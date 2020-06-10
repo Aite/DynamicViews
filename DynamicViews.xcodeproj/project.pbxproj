@@ -15,6 +15,8 @@
 		781473D12490B64600B88464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781473CF2490B64600B88464 /* LaunchScreen.storyboard */; };
 		781473DA2490B69500B88464 /* DynamicStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781473D92490B69500B88464 /* DynamicStackView.swift */; };
 		78A2B75B2490D79800469847 /* SimpleHideableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A2B75A2490D79800469847 /* SimpleHideableView.swift */; };
+		78A2B75D2490DF1700469847 /* SimpleCompressibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A2B75C2490DF1700469847 /* SimpleCompressibleView.swift */; };
+		78A2B75F2490E34000469847 /* SimpleCompressibleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A2B75E2490E34000469847 /* SimpleCompressibleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		781473D22490B64600B88464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		781473D92490B69500B88464 /* DynamicStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStackView.swift; sourceTree = "<group>"; };
 		78A2B75A2490D79800469847 /* SimpleHideableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHideableView.swift; sourceTree = "<group>"; };
+		78A2B75C2490DF1700469847 /* SimpleCompressibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCompressibleView.swift; sourceTree = "<group>"; };
+		78A2B75E2490E34000469847 /* SimpleCompressibleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleCompressibleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				781473D92490B69500B88464 /* DynamicStackView.swift */,
 				78A2B75A2490D79800469847 /* SimpleHideableView.swift */,
+				78A2B75C2490DF1700469847 /* SimpleCompressibleView.swift */,
+				78A2B75E2490E34000469847 /* SimpleCompressibleView.xib */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A2B75F2490E34000469847 /* SimpleCompressibleView.xib in Resources */,
 				781473D12490B64600B88464 /* LaunchScreen.storyboard in Resources */,
 				781473CE2490B64600B88464 /* Assets.xcassets in Resources */,
 				781473CC2490B64300B88464 /* Main.storyboard in Resources */,
@@ -152,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A2B75D2490DF1700469847 /* SimpleCompressibleView.swift in Sources */,
 				781473C92490B64300B88464 /* ViewController.swift in Sources */,
 				781473C52490B64300B88464 /* AppDelegate.swift in Sources */,
 				781473C72490B64300B88464 /* SceneDelegate.swift in Sources */,

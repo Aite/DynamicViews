@@ -12,8 +12,22 @@ public protocol AutoHidableView {
     var canHide: Bool { get }
 }
 
+public protocol AutoCompressibleView {
+    var canCompress: Bool { get }
+    func compress()
+}
+
 @IBDesignable
 public class DynamicStackView: UIStackView {
+    private var compressibleSubviewsCount: Int {
+        return self.arrangedSubviews.reduce(0) { (result, subview) -> Int in
+            if canCompress(subview) {
+                return result + 1
+            }
+            return result
+        }
+    }
+
     private var visibleDynamicSubviewsCount: Int {
         return self.arrangedSubviews.reduce(0) { (result, subview) -> Int in
             if !subview.isHidden && canHide(subview) {
@@ -47,7 +61,10 @@ public class DynamicStackView: UIStackView {
             }
 
             if (viewSize < subviewsIntrinsicSum) {
-                if visibleDynamicSubviewsCount > 0 {
+                if compressibleSubviewsCount > 0 {
+                    compressNextSubview()
+                }
+                else if visibleDynamicSubviewsCount > 0 {
                     hideNextSubview()
                 }
                 else {
@@ -68,8 +85,21 @@ public class DynamicStackView: UIStackView {
         }
     }
     
+    private func compressNextSubview() {
+        for subview in self.arrangedSubviews {
+            if let compressible = subview as? AutoCompressibleView, canCompress(subview) {
+                compressible.compress()
+            }
         }
-        else {
+    }
+    
+    private func canCompress(_ subview: UIView) -> Bool {
+        guard let dynamicSubview = subview as? AutoCompressibleView else {
+            return false
+        }
+        return dynamicSubview.canCompress
+    }
+
     private func canHide(_ subview: UIView) -> Bool {
         guard let dynamicSubview = subview as? AutoHidableView else {
             return false
