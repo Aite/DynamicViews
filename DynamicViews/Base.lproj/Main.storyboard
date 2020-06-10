@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,140 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DynamicViews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cDk-Dj-het" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="78" width="414" height="110"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IXv-3B-rKc" customClass="DynamicView" customModule="DynamicViews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Very Long Long Lo Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg4-ns-UJN">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="qg4-ns-UJN" firstAttribute="top" secondItem="IXv-3B-rKc" secondAttribute="top" id="7JZ-TR-W9z"/>
+                                            <constraint firstItem="qg4-ns-UJN" firstAttribute="leading" secondItem="IXv-3B-rKc" secondAttribute="leading" id="Ep8-bq-7DO"/>
+                                            <constraint firstAttribute="trailing" secondItem="qg4-ns-UJN" secondAttribute="trailing" id="HZe-Vb-jFs"/>
+                                            <constraint firstAttribute="bottom" secondItem="qg4-ns-UJN" secondAttribute="bottom" id="rrX-yc-CIn"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="joe-Lc-7hk" customClass="DynamicView" customModule="DynamicViews" customModuleProvider="target">
+                                        <rect key="frame" x="414" y="0.0" width="0.0" height="110"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Long Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82A-za-act">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="110"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="82A-za-act" firstAttribute="leading" secondItem="joe-Lc-7hk" secondAttribute="leading" id="0WB-E2-Qca"/>
+                                            <constraint firstAttribute="bottom" secondItem="82A-za-act" secondAttribute="bottom" id="a5i-lc-V88"/>
+                                            <constraint firstItem="82A-za-act" firstAttribute="top" secondItem="joe-Lc-7hk" secondAttribute="top" id="hFL-KR-dKX"/>
+                                            <constraint firstAttribute="trailing" secondItem="82A-za-act" secondAttribute="trailing" id="o9V-fW-Vwg"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="canHide" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="xpm-3y-JcL"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="O1n-07-I1m" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="196" width="414" height="653"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X64-nO-4CN" customClass="DynamicView" customModule="DynamicViews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="287"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7X-XV-X7U">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="287"/>
+                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="j7X-XV-X7U" secondAttribute="bottom" id="1mb-wY-NhS"/>
+                                            <constraint firstAttribute="trailing" secondItem="j7X-XV-X7U" secondAttribute="trailing" id="2gC-8P-oDF"/>
+                                            <constraint firstItem="j7X-XV-X7U" firstAttribute="leading" secondItem="X64-nO-4CN" secondAttribute="leading" id="8bo-Eo-Cge"/>
+                                            <constraint firstItem="j7X-XV-X7U" firstAttribute="top" secondItem="X64-nO-4CN" secondAttribute="top" id="rHY-TC-TAR"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVa-ZW-QNi" customClass="DynamicView" customModule="DynamicViews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="287" width="414" height="183"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPT-gC-IRO">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="183"/>
+                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="YPT-gC-IRO" firstAttribute="leading" secondItem="YVa-ZW-QNi" secondAttribute="leading" id="621-fB-qkC"/>
+                                            <constraint firstAttribute="bottom" secondItem="YPT-gC-IRO" secondAttribute="bottom" id="cOI-yz-hV1"/>
+                                            <constraint firstItem="YPT-gC-IRO" firstAttribute="top" secondItem="YVa-ZW-QNi" secondAttribute="top" id="p8L-xl-oyR"/>
+                                            <constraint firstAttribute="trailing" secondItem="YPT-gC-IRO" secondAttribute="trailing" id="wAJ-Ab-tXH"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="canHide" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QYA-iA-595" customClass="DynamicView" customModule="DynamicViews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="470" width="414" height="183"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmA-2L-fs4">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="183"/>
+                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="wmA-2L-fs4" firstAttribute="leading" secondItem="QYA-iA-595" secondAttribute="leading" id="PQE-Sk-Hvb"/>
+                                            <constraint firstAttribute="bottom" secondItem="wmA-2L-fs4" secondAttribute="bottom" id="bKN-tP-0KJ"/>
+                                            <constraint firstItem="wmA-2L-fs4" firstAttribute="top" secondItem="QYA-iA-595" secondAttribute="top" id="gNj-Zs-mcl"/>
+                                            <constraint firstAttribute="trailing" secondItem="wmA-2L-fs4" secondAttribute="trailing" id="o2Y-7I-BT2"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="O1n-07-I1m" firstAttribute="top" secondItem="cDk-Dj-het" secondAttribute="bottom" constant="8" id="3Ca-0z-7Oj"/>
+                            <constraint firstItem="cDk-Dj-het" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4Q3-UU-DVY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O1n-07-I1m" secondAttribute="bottom" constant="13" id="COb-3Z-Upe"/>
+                            <constraint firstItem="cDk-Dj-het" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DXK-xi-qOH"/>
+                            <constraint firstItem="O1n-07-I1m" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oQr-eY-7eW"/>
+                            <constraint firstItem="cDk-Dj-het" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="wRb-Ix-4ib"/>
+                            <constraint firstItem="O1n-07-I1m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yMC-ei-gHM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
     </scenes>
 </document>
