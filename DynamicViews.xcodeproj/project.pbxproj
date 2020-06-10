@@ -14,7 +14,7 @@
 		781473CE2490B64600B88464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781473CD2490B64600B88464 /* Assets.xcassets */; };
 		781473D12490B64600B88464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781473CF2490B64600B88464 /* LaunchScreen.storyboard */; };
 		781473DA2490B69500B88464 /* DynamicStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781473D92490B69500B88464 /* DynamicStackView.swift */; };
-		78A2B75B2490D79800469847 /* DynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A2B75A2490D79800469847 /* DynamicView.swift */; };
+		78A2B75B2490D79800469847 /* SimpleHideableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A2B75A2490D79800469847 /* SimpleHideableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		781473D02490B64600B88464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		781473D22490B64600B88464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		781473D92490B69500B88464 /* DynamicStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStackView.swift; sourceTree = "<group>"; };
-		78A2B75A2490D79800469847 /* DynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicView.swift; sourceTree = "<group>"; };
+		78A2B75A2490D79800469847 /* SimpleHideableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHideableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				781473D92490B69500B88464 /* DynamicStackView.swift */,
-				78A2B75A2490D79800469847 /* DynamicView.swift */,
+				78A2B75A2490D79800469847 /* SimpleHideableView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 				781473C92490B64300B88464 /* ViewController.swift in Sources */,
 				781473C52490B64300B88464 /* AppDelegate.swift in Sources */,
 				781473C72490B64300B88464 /* SceneDelegate.swift in Sources */,
-				78A2B75B2490D79800469847 /* DynamicView.swift in Sources */,
+				78A2B75B2490D79800469847 /* SimpleHideableView.swift in Sources */,
 				781473DA2490B69500B88464 /* DynamicStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

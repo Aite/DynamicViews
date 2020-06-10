@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol AutoHidableView {
+public protocol AutoHidableView {
     var canHide: Bool { get }
 }
 
 @IBDesignable
-class DynamicStackView: UIStackView {
-    var visibleDynamicSubviewsCount: Int {
+public class DynamicStackView: UIStackView {
+    private var visibleDynamicSubviewsCount: Int {
         return self.arrangedSubviews.reduce(0) { (result, subview) -> Int in
             if !subview.isHidden && canHide(subview) {
                 return result + 1
@@ -23,7 +23,7 @@ class DynamicStackView: UIStackView {
         }
     }
 
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         var changesNeeded = true
         while changesNeeded {
@@ -33,20 +33,19 @@ class DynamicStackView: UIStackView {
                 subviewsIntrinsicSum = self.arrangedSubviews.reduce(0) { (result, subview) -> CGFloat in
                     !subview.isHidden ? result + subview.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize).width + spacing : result
                 }
-                if subviewsIntrinsicSum > 0 {
-                    subviewsIntrinsicSum -= spacing
-                }
                 viewSize = self.bounds.size.width
             }
             else {
                 subviewsIntrinsicSum = self.arrangedSubviews.reduce(0) { (result, subview) -> CGFloat in
                     !subview.isHidden ? result + subview.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize).height + spacing : result
                 }
-                if subviewsIntrinsicSum > 0 {
-                    subviewsIntrinsicSum -= spacing
-                }
                 viewSize = self.bounds.size.height
             }
+
+            if subviewsIntrinsicSum > 0 {
+                subviewsIntrinsicSum -= spacing
+            }
+
             if (viewSize < subviewsIntrinsicSum) {
                 if visibleDynamicSubviewsCount > 0 {
                     hideNextSubview()
@@ -61,7 +60,7 @@ class DynamicStackView: UIStackView {
         super.layoutSubviews()
     }
     
-    func hideNextSubview() {
+    private func hideNextSubview() {
         for subview in self.arrangedSubviews {
             if !subview.isHidden && canHide(subview) {
                 subview.isHidden = true
@@ -69,13 +68,13 @@ class DynamicStackView: UIStackView {
         }
     }
     
-    private func canHide(_ subview: UIView) -> Bool {
-        if let dynamicSubview = subview as? AutoHidableView, dynamicSubview.canHide {
-            return true
         }
         else {
+    private func canHide(_ subview: UIView) -> Bool {
+        guard let dynamicSubview = subview as? AutoHidableView else {
             return false
         }
+        return dynamicSubview.canHide
     }
 }
 

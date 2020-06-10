@@ -9,9 +9,9 @@
 import UIKit
 
 @IBDesignable
-class SimpleHideableView: UIView, AutoHidableView {
+public class SimpleHideableView: UIView, AutoHidableView {
     @IBInspectable
-    var canHide: Bool = false {
+    public var canHide: Bool = false {
         didSet { setNeedsDisplay() }
     }
 }
