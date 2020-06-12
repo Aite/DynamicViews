@@ -112,10 +112,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="O1n-07-I1m" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="318" width="207" height="482"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X64-nO-4CN" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="X64-nO-4CN" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="207" height="203"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7X-XV-X7U">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7X-XV-X7U">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="203"/>
                                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -134,7 +134,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVa-ZW-QNi" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="203" width="207" height="157"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPT-gC-IRO">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPT-gC-IRO">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="157"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -152,7 +152,7 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="canHide" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QYA-iA-595" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QYA-iA-595" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="360" width="207" height="122"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmA-2L-fs4">
@@ -175,10 +175,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="etY-Vm-SPW" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
                                 <rect key="frame" x="207" y="318" width="207" height="482"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OUa-yg-mMI" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="OUa-yg-mMI" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="207" height="360"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2q-ih-VKA">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2q-ih-VKA">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="360"/>
                                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -194,10 +194,10 @@
                                             <constraint firstItem="O2q-ih-VKA" firstAttribute="top" secondItem="OUa-yg-mMI" secondAttribute="top" id="vhk-bB-qC4"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHc-46-2AA" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHc-46-2AA" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="360" width="207" height="0.0"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7G-um-9EF">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7G-um-9EF">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -215,10 +215,10 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="canHide" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pla-GZ-58Q" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pla-GZ-58Q" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="360" width="207" height="122"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhF-b2-cXc">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhF-b2-cXc">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="122"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -255,7 +255,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Hideable" id="RhA-dH-iKe"/>
+                    <tabBarItem key="tabBarItem" title="Hideable" image="circle.fill" catalog="system" id="RhA-dH-iKe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -280,7 +280,7 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
-        <!--Item-->
+        <!--Compressable-->
         <scene sceneID="aUY-Lw-JgU">
             <objects>
                 <viewController id="CoH-LN-Dvg" sceneMemberID="viewController">
@@ -336,11 +336,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9Wy-MQ-x8a"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="JKv-1g-Nsc"/>
+                    <tabBarItem key="tabBarItem" title="Compressable" image="circle.fill" catalog="system" id="JKv-1g-Nsc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="00d-09-5RG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1112" y="619"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="circle.fill" catalog="system" width="128" height="121"/>
+    </resources>
 </document>
