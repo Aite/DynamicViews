@@ -21,7 +21,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IXv-3B-rKc" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Very Long Long Lo Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg4-ns-UJN">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Very Long Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg4-ns-UJN">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -110,13 +110,13 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="O1n-07-I1m" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="318" width="207" height="482"/>
+                                <rect key="frame" x="0.0" y="318" width="207" height="485"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="X64-nO-4CN" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="207" height="203"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="206"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7X-XV-X7U">
-                                                <rect key="frame" x="0.0" y="0.0" width="207" height="203"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="206"/>
                                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -132,7 +132,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVa-ZW-QNi" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="203" width="207" height="157"/>
+                                        <rect key="frame" x="0.0" y="206" width="207" height="157"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPT-gC-IRO">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="157"/>
@@ -153,7 +153,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QYA-iA-595" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="360" width="207" height="122"/>
+                                        <rect key="frame" x="0.0" y="363" width="207" height="122"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmA-2L-fs4">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="122"/>
@@ -173,13 +173,13 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="etY-Vm-SPW" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
-                                <rect key="frame" x="207" y="318" width="207" height="482"/>
+                                <rect key="frame" x="207" y="318" width="207" height="485"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="OUa-yg-mMI" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="207" height="360"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="363"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2q-ih-VKA">
-                                                <rect key="frame" x="0.0" y="0.0" width="207" height="360"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="363"/>
                                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -195,7 +195,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHc-46-2AA" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="360" width="207" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="363" width="207" height="0.0"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7G-um-9EF">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="0.0"/>
@@ -216,7 +216,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pla-GZ-58Q" customClass="SimpleHideableView" customModule="DynamicViews" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="360" width="207" height="122"/>
+                                        <rect key="frame" x="0.0" y="363" width="207" height="122"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhF-b2-cXc">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="122"/>
@@ -239,13 +239,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="cDk-Dj-het" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4Q3-UU-DVY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="centerX" secondItem="etY-Vm-SPW" secondAttribute="leading" id="4zI-aT-neI"/>
                             <constraint firstItem="etY-Vm-SPW" firstAttribute="top" secondItem="O1n-07-I1m" secondAttribute="top" id="9Ps-ra-FqY"/>
                             <constraint firstItem="ty3-F3-at6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9gH-9h-GWm"/>
                             <constraint firstItem="ty3-F3-at6" firstAttribute="top" secondItem="cDk-Dj-het" secondAttribute="bottom" constant="10" id="A4t-Do-fIv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O1n-07-I1m" secondAttribute="bottom" constant="13" id="COb-3Z-Upe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O1n-07-I1m" secondAttribute="bottom" constant="10" id="COb-3Z-Upe"/>
                             <constraint firstItem="cDk-Dj-het" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DXK-xi-qOH"/>
+                            <constraint firstItem="O1n-07-I1m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="274" id="Lft-T2-OXd"/>
                             <constraint firstItem="ty3-F3-at6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ogm-8R-C3m"/>
+                            <constraint firstItem="etY-Vm-SPW" firstAttribute="leading" secondItem="O1n-07-I1m" secondAttribute="trailing" id="Xcu-3d-qqe"/>
                             <constraint firstItem="etY-Vm-SPW" firstAttribute="bottom" secondItem="O1n-07-I1m" secondAttribute="bottom" id="kH8-EJ-USC"/>
                             <constraint firstItem="O1n-07-I1m" firstAttribute="top" secondItem="ty3-F3-at6" secondAttribute="bottom" constant="10" id="o6T-WD-Hrp"/>
                             <constraint firstItem="O1n-07-I1m" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oQr-eY-7eW"/>
@@ -289,16 +290,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="piu-uf-UE5" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="78" width="414" height="100"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Long Long Lo Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcc-eA-PBF">
-                                        <rect key="frame" x="0.0" y="0.0" width="231" height="100"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Long Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcc-eA-PBF">
+                                        <rect key="frame" x="0.0" y="0.0" width="123" height="100"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iM9-lM-p4c" customClass="SimpleCompressibleView" customModule="DynamicViews" customModuleProvider="target">
-                                        <rect key="frame" x="231" y="0.0" width="183" height="100"/>
+                                        <rect key="frame" x="123" y="0.0" width="291" height="100"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                 </subviews>
@@ -307,32 +308,97 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vdq-Om-0wY" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="319" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="188" width="414" height="110"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72U-vJ-6ht">
-                                        <rect key="frame" x="0.0" y="0.0" width="123" height="100"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Long Long Long Long Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72U-vJ-6ht">
+                                        <rect key="frame" x="0.0" y="0.0" width="292.5" height="110"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fg-og-ZWz" customClass="SimpleCompressibleView" customModule="DynamicViews" customModuleProvider="target">
-                                        <rect key="frame" x="123" y="0.0" width="291" height="100"/>
+                                        <rect key="frame" x="292.5" y="0.0" width="121.5" height="110"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="fG3-he-lCn"/>
+                                    <constraint firstAttribute="height" constant="110" id="fG3-he-lCn"/>
                                 </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="f7g-XU-she" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="308" width="207" height="495"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNc-a3-i7E">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="251"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgq-J8-H9m" customClass="SimpleCompressibleLabel" customModule="DynamicViews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="251" width="207" height="122"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPE-Kj-ATo">
+                                        <rect key="frame" x="0.0" y="373" width="207" height="122"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8HS-S9-5Ej" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
+                                <rect key="frame" x="207" y="308" width="207" height="495"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOe-Ee-ZpF">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="352.5"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UzT-cA-5d8" customClass="SimpleCompressibleLabel" customModule="DynamicViews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="352.5" width="207" height="20.5"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="canCompress" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtj-Xa-7Gl">
+                                        <rect key="frame" x="0.0" y="373" width="207" height="122"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Vdq-Om-0wY" firstAttribute="leading" secondItem="9Wy-MQ-x8a" secondAttribute="leading" id="1p2-nw-kQK"/>
-                            <constraint firstItem="Vdq-Om-0wY" firstAttribute="top" secondItem="piu-uf-UE5" secondAttribute="bottom" constant="175" id="Dyi-OK-gi2"/>
+                            <constraint firstItem="8HS-S9-5Ej" firstAttribute="top" secondItem="f7g-XU-she" secondAttribute="top" id="8B5-8Q-2nQ"/>
+                            <constraint firstItem="Vdq-Om-0wY" firstAttribute="top" secondItem="piu-uf-UE5" secondAttribute="bottom" constant="10" id="Dyi-OK-gi2"/>
+                            <constraint firstItem="8HS-S9-5Ej" firstAttribute="bottom" secondItem="f7g-XU-she" secondAttribute="bottom" id="POu-fD-qdP"/>
                             <constraint firstItem="piu-uf-UE5" firstAttribute="leading" secondItem="9Wy-MQ-x8a" secondAttribute="leading" id="Ppp-YA-7MU"/>
+                            <constraint firstItem="f7g-XU-she" firstAttribute="leading" secondItem="9Wy-MQ-x8a" secondAttribute="leading" id="U2u-Zb-1AA"/>
+                            <constraint firstItem="f7g-XU-she" firstAttribute="trailing" secondItem="9Wy-MQ-x8a" secondAttribute="centerX" id="VAI-Xp-u1H"/>
+                            <constraint firstItem="9Wy-MQ-x8a" firstAttribute="centerX" secondItem="8HS-S9-5Ej" secondAttribute="leading" id="XPy-BO-wtq"/>
                             <constraint firstItem="9Wy-MQ-x8a" firstAttribute="trailing" secondItem="piu-uf-UE5" secondAttribute="trailing" id="Xbx-oR-zpL"/>
+                            <constraint firstItem="9Wy-MQ-x8a" firstAttribute="bottom" secondItem="f7g-XU-she" secondAttribute="bottom" constant="10" id="d4W-WR-Sx4"/>
                             <constraint firstItem="9Wy-MQ-x8a" firstAttribute="trailing" secondItem="Vdq-Om-0wY" secondAttribute="trailing" id="f1S-GS-m3B"/>
-                            <constraint firstItem="piu-uf-UE5" firstAttribute="top" secondItem="9Wy-MQ-x8a" secondAttribute="top" id="wJO-ez-DyV"/>
+                            <constraint firstItem="8HS-S9-5Ej" firstAttribute="trailing" secondItem="9Wy-MQ-x8a" secondAttribute="trailing" id="n9s-p8-mI3"/>
+                            <constraint firstItem="f7g-XU-she" firstAttribute="top" secondItem="Vdq-Om-0wY" secondAttribute="bottom" constant="10" id="tlV-WQ-FRu"/>
+                            <constraint firstItem="piu-uf-UE5" firstAttribute="top" secondItem="9Wy-MQ-x8a" secondAttribute="top" constant="34" id="wJO-ez-DyV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9Wy-MQ-x8a"/>
                     </view>
@@ -340,7 +406,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="00d-09-5RG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1112" y="619"/>
+            <point key="canvasLocation" x="1111.5942028985507" y="618.75"/>
         </scene>
     </scenes>
     <resources>
