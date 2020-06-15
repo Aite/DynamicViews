@@ -107,4 +107,3 @@ public class DynamicStackView: UIStackView {
         return dynamicSubview.canHide
     }
 }
-

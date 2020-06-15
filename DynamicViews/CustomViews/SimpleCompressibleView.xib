@@ -18,19 +18,16 @@
             <rect key="frame" x="0.0" y="0.0" width="300" height="145"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="PJ5-3D-XaO">
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PJ5-3D-XaO">
                     <rect key="frame" x="0.0" y="0.0" width="300" height="145"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sty-4O-tFn">
                             <rect key="frame" x="0.0" y="0.0" width="200" height="145"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGh-uL-Vdg">
-                                    <rect key="frame" x="0.0" y="0.0" width="100" height="145"/>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGh-uL-Vdg">
+                                    <rect key="frame" x="0.0" y="0.0" width="96" height="145"/>
                                     <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="100" id="AhS-gP-Vj2"/>
-                                    </constraints>
-                                    <state key="normal" title="Button">
+                                    <state key="normal" title="Button Button">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                     <connections>
@@ -38,12 +35,9 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0L-8B-Oz7">
-                                    <rect key="frame" x="100" y="0.0" width="100" height="145"/>
+                                    <rect key="frame" x="96" y="0.0" width="104" height="145"/>
                                     <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="100" id="nrN-Pr-gaM"/>
-                                    </constraints>
-                                    <state key="normal" title="Button">
+                                    <state key="normal" title="Button Button">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                     <connections>
@@ -67,10 +61,7 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJp-Nw-6xj">
                                     <rect key="frame" x="0.0" y="0.0" width="100" height="145"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="100" id="IXS-9a-WGC"/>
-                                    </constraints>
-                                    <state key="normal" title="Button">
+                                    <state key="normal" title="Button Button">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <connections>
@@ -81,7 +72,6 @@
                             <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="BJp-Nw-6xj" firstAttribute="leading" secondItem="N1h-AY-8Do" secondAttribute="leading" id="5IP-Qr-MHX"/>
-                                <constraint firstAttribute="width" constant="100" id="89S-vV-bD2"/>
                                 <constraint firstAttribute="bottom" secondItem="BJp-Nw-6xj" secondAttribute="bottom" id="OC9-xr-slx"/>
                                 <constraint firstItem="BJp-Nw-6xj" firstAttribute="top" secondItem="N1h-AY-8Do" secondAttribute="top" id="o7D-kE-fOg"/>
                                 <constraint firstAttribute="trailing" secondItem="BJp-Nw-6xj" secondAttribute="trailing" id="opt-AS-GBX"/>

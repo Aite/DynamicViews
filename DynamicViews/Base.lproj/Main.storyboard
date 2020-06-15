@@ -292,13 +292,13 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="piu-uf-UE5" customClass="DynamicStackView" customModule="DynamicViews" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="78" width="414" height="100"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Long Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcc-eA-PBF">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Very Long Long Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcc-eA-PBF">
                                         <rect key="frame" x="0.0" y="0.0" width="123" height="100"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iM9-lM-p4c" customClass="SimpleCompressibleView" customModule="DynamicViews" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iM9-lM-p4c" customClass="SimpleCompressibleView" customModule="DynamicViews" customModuleProvider="target">
                                         <rect key="frame" x="123" y="0.0" width="291" height="100"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
